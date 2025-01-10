@@ -6,6 +6,7 @@ import ArticleCard from '../components/ArticleCard';
 import Pagination from '../components/Pagination';
 import { useFilter } from '../context/FilterContext';
 
+
 const HomePage = () => {
   const { searchTerm, activeCategory } = useFilter();
   const [currentPage, setCurrentPage] = useState(1);

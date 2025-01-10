@@ -7,7 +7,7 @@ export const FilterProvider = ({ children }) => {
   const [activeCategory, setActiveCategory] = useState('All');
   
   // Static list of categories (can be fetched from the data as well)
-  const categories = ['All', 'Technology', 'Health', 'Education', 'Finance'];
+  const categories = ['All', 'Technology', 'Health', 'Education', 'Finance', 'Business'];
 
   return (
     <FilterContext.Provider
